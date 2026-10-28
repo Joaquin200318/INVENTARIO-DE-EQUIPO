@@ -1,0 +1,11 @@
+{
+  "name": "it-asset-manager-monorepo",
+  "version": "1.0.0",
+  "description": "Sistema Corporativo de Gestion de Inventario IT y Deposito",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
